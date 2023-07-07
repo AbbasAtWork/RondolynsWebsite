@@ -3,7 +3,25 @@ body * {font-family: 'Jost', sans-serif!important;}
 .fa, .fas {font-family: 'Font Awesome 5 Free'!important;font-weight: 900;}
 .fab {font-family: 'Font Awesome 5 Brands'!important;}
 /********* GENERAL CSS ENDS **********/
+.main::-webkit-scrollbar { 
+  /* this sets the width of the bar, in the div.main (::-webkit-scrollbar is fro the body/html)*/
+  width: 20px; /* change for scrollbar width */
+}
 
+.main::-webkit-scrollbar-track { 
+  /* scrollbar background */
+  background-color: lightgray;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background-color: red; /* will leave after image loads */
+  background-image: url("truck-g5cd94c6a8_640.png");
+  background-size: cover;
+}
+
+.main::-webkit-scrollbar-thumb:hover {
+  /* feel free to set this for when the mouse is over the bar */
+}
 /********* HEADER CSS STARTS **********/
 header .container{max-width: 1280px;}
 header #top{background: #000;height: 55px;}
