@@ -1,0 +1,238 @@
+/********* GENERAL CSS STARTS **********/
+body * {font-family: 'Jost', sans-serif!important;}
+.fa, .fas {font-family: 'Font Awesome 5 Free'!important;font-weight: 900;}
+.fab {font-family: 'Font Awesome 5 Brands'!important;}
+/********* GENERAL CSS ENDS **********/
+
+/********* HEADER CSS STARTS **********/
+header .container{max-width: 1280px;}
+header #top{background: #000;height: 55px;}
+header #top .container{height: 100%;}
+header #top .container .row{height: 100%;}
+header #top a{font-size: 14px;color:#fff;}
+header #top a i{color:#fff;font-size: 20px;}
+header #top .contact-links {display: flex;justify-content: space-evenly;align-items: center;}
+header #top .social-links {display: flex;justify-content: space-evenly;align-items: center;}
+header #innerheader nav{padding: 25px 0;}
+header #innerheader nav li a{font-size: 18px;color:#000;}
+header .mainlogo{position: relative;}
+header .mainlogo img{position: absolute;z-index: 999999999999999999999999999999999999;}
+
+/********* HEADER CSS ENDS **********/
+
+body{overflow-x: hidden;}
+
+
+
+#mainBanner .carousel-caption{top: 50%;transform: translateY(-50%);left: 0;right: 0;margin: 0 auto;background: rgba(0,0,0,0.7);width: 100%;height:100%;display: flex;align-items: center;justify-content: center;flex-direction: column;}
+#mainBanner .carousel-caption h4{font-size: 51px;font-weight: bold;line-height: 71px;color: #ffff;text-transform: uppercase;width: auto;border-bottom:4px solid #ED1E23;}
+#mainBanner .carousel-caption strong{font-size: 39px;line-height: 57px;color: #fff;text-transform: uppercase;font-weight: bold;}
+#mainBanner .carousel-caption p{font-size: 20px;line-height: 29px;color: #fff;}
+
+/********* THREEMINICARDS CSS STARTS **********/
+#threeMiniCards{position: relative;top:-100px;z-index: 999999999999999999999999999999999999999;}
+#threeMiniCards h5{font-weight: bold;font-size: 20px;text-transform: uppercase;word-break: break-word;}
+#threeMiniCards .media{padding:30px;}
+#threeMiniCards .media-body{font-size: 16px;}
+#threeMiniCards .first{background: #ED1E23;}
+#threeMiniCards .first h5{color: #fff;}
+#threeMiniCards .first .media-body{color:#fff;}
+#threeMiniCards .second{background: #f4f4f4;}
+#threeMiniCards .second h5{color:#000;}
+#threeMiniCards .second .media-body{color:#000;}
+#threeMiniCards .third{background: #1C224B;}
+#threeMiniCards .third h5{color:#fff;}
+#threeMiniCards .third .media-body{color:#fff;}
+/********* THREEMINICARDS CSS ENDS **********/
+
+
+#services{margin-bottom: 50px;}
+#services h4{color:#ED1E23;font-size:22px;font-weight: bold;}
+#services h1{color:#000;font-size: 42px;font-weight: bold;}
+#services .sub{margin-bottom: 30px;padding:0 20px;}    
+#services .media{box-shadow: 0px 10px 20px #00000029;padding: 30px;}
+#services h5{font-size: 20px;line-height: 29px;color:#000;text-transform: uppercase;}
+#services .media-body{font-size: 16px;color:#000;line-height: 25px;}
+#services .media img{position: relative;left:-50px;margin:0px!important;}
+
+
+
+#chooseUs{background: url("./Rectangle 33.png")no-repeat;background-size: cover;padding:120px 0;margin-bottom: 40px;}
+#chooseUs h1{color:#fff;font-size: 42px;line-height: 61px;text-transform: uppercase;margin-bottom: 40px;font-weight: bold;}
+#chooseUs h3{font-size: 20px;line-height: 29px;color:#fff;font-weight: bold;text-transform: uppercase;}
+#chooseUs p{font-size: 16px;color:#fff;line-height: 25px;margin-bottom: 30px;}
+
+
+#aboutUs h4{font-size: 22px;line-height: 32px;color:#ED1E23;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;}
+#aboutUs h1{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;margin-bottom: 30px;font-weight: bold;}
+#aboutUs p{font-size: 22px;line-height:25px;color:#000;}
+#aboutUs span{font-size:22px;color:#000;}
+#aboutUs i{color:#ED1E23;}
+#aboutUs form{box-shadow: 0px 10px 20px #00000029;padding:20px 15px;}
+#aboutUs form input{border: 1px solid #000000;opacity: 1;width: 100%;max-width: 398px;height:50px;margin-bottom: 25px;color:#000;font-size: 18px;text-transform: capitalize;padding-left: 15px;}
+#aboutUs form textarea{border: 1px solid #000000;opacity: 1;width: 100%;max-width: 398px;height:150px;margin-bottom: 25px;padding-left: 15px;color:#000;font-size: 18px;}
+#aboutUs form button{background:#ED1E23;width: 100%;height: 50px;max-width: 398px;line-height: 50px;text-align: center;font-size: 18px;color: #fff;text-transform: capitalize;padding: 0px;border: 0px;}
+        
+    
+#resources{margin-top:40px;}
+#resources h1{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;font-weight: bold;}
+#resources strong{font-size: 22px;line-height: 32px;color:#ED1E23;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;display: block;}
+
+
+#faq{background: url("./Rectangle 51.png")no-repeat;background-size: cover;padding:80px 0;margin-bottom: 40px;}
+#faq h3{font-size: 22px;color:#ED1E23;font-weight: bold;line-height: 32px;text-transform: uppercase;}
+#faq h2{font-size: 42px;font-weight: bold;line-height: 50px;color:#fff;text-transform: uppercase;margin-bottom: 20px;}
+#faq img{margin-bottom: 15px;}
+#faq p{font-size: 22px;line-height: 32px;color:#fff;text-transform: uppercase;font-weight: bold;}
+#faq p span{color:#ED1E23;}
+#faq a{width: 100%;max-width: 246px;line-height: 50px;height: 50px;text-align: center;background: #ED1E23;color: #fff;font-size: 18px;text-transform: capitalize;text-decoration: none;display: block;}
+
+/* Acordeon styles */
+.tab {
+    position: relative;
+    margin-bottom: 1px;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+  }
+  .tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  .tab label {
+    position: relative;
+    display: block;
+    padding-left: 15px;
+    background: transparent;
+    border:1px solid #fff;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 3;
+    cursor: pointer;
+    height: 50px;
+  }
+  .tab label.active{background: #ED1E23;color: #fff;height: 50px;border:0px;font-weight:500;font-size: 18px;}
+  .blue label {
+    background: #2980b9;
+  }
+  .tab-content {
+    max-height: 0;
+    overflow: hidden;
+    background: transparent;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+  }
+
+  .tab-content p {
+    font-size: 16px;color: #fff;line-height: 25px;
+  }
+  /* :checked */
+  .tab input:checked ~ .tab-content {
+    max-height: 100vh;
+  }
+  /* Icon */
+  .tab label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+  }
+  .tab input[type=checkbox] + label::after {
+    content: "+";
+  }
+  .tab input[type=radio] + label::after {
+    content: "\25BC";
+  }
+  .tab input[type=checkbox]:checked + label::after {
+    transform: rotate(315deg);
+  }
+  .tab input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+  }
+  
+
+
+#law{margin-top:40px;margin-bottom: 40px;}
+#law h1{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;font-weight: bold;}
+#law strong{font-size: 22px;line-height: 32px;color:#ED1E23;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;display: block;}
+
+
+#testimonials{margin-top:40px;margin-bottom: 40px;}
+#testimonials h1{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;font-weight: bold;}
+#testimonials strong{font-size: 22px;line-height: 32px;color:#ED1E23;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;display: block;}
+#testimonials p{font-size: 18px;line-height: 25px;color: #000;}
+#testimonials b{font-size: 20px;line-height: 29px;text-transform: uppercase;color: #000;}
+#testimonials strong{font-size: 20px;line-height: 29px;text-transform: uppercase;color: #000;}
+#testimonials button{width: 40px;height: 40px;border-radius: 20px;border:1px solid #707070!important;line-height: 40px;text-align: center;top: 50%;transform: translateY(-50%);}
+#testimonials button span{font-size:16px;color:#000!important;}
+
+footer{background-color: #000;}
+footer .container{max-width: 1280px;}
+#footerTop .container{border-bottom: 1px solid #fff;padding:30px 15px;}
+#footerTop h4{color: #fff; font-weight: bold; font-size: 20px;text-transform: capitalize;}
+#footerTop a{font-size: 18px;color: #fff;text-decoration: none;text-transform: capitalize;line-height: 26px;}
+#footerTop p{font-size: 18px;color: #fff;text-decoration: none;line-height: 26px;}
+#footerBottom{padding:20px 0;}
+
+#footerBottom p{font-size: 14px;color:#fff;margin-bottom: 0px;}
+
+.navi{justify-content: space-around;}
+@media(max-width:992px)
+{
+  header{position: relative;}
+  header .mainlogo{text-align: center;}
+  .navholder{justify-content: flex-start!important;}
+  .navbar-light .navbar-toggler{border-color: transparent!important;}
+  .navbar-light .navbar-toggler span {color: #ED1E23;}
+  header #innerheader nav{padding: 40px 0;}
+  .navi{justify-content: flex-end;}
+  header .mainlogo img{left: 15px;}
+}
+@media(max-width:767px)
+{
+  header #top .social-links{display: none;}
+  #mainBanner .carousel-caption h4{font-size: 23px;line-height: 35px;}
+  #mainBanner .carousel-caption strong{font-size: 25px;line-height: 40px;}
+  #mainBanner .carousel-caption p{font-size: 16px;}
+  #threeMiniCards{top: 0px;margin-top:0px;margin-bottom: 30px;}
+  #threeMiniCards .media {padding: 30px;flex-direction: column;align-items: center;text-align: center;}
+ 
+  #resources .partners * img{width: 100%;}
+  #chooseUs{background-size:cover;background-position:center center;padding: 40px 0;}
+  #chooseUs .container-fluid .row{padding: 0 15px;}
+ 
+  #services .media{flex-direction: column;align-items: center;text-align: center;}
+  #services .media img{left: 0;margin: 0 auto;}
+  #aboutUs .container-fluid .row{padding: 0 15px;}
+ 
+  #footerTop .container .row > div{margin-bottom: 20px;}
+}
+@media(max-width:575px)
+{ 
+
+  #mainBanner * img{height:264px;object-fit: cover;}
+  #mainBanner .carousel-caption h4{font-size: 18px;line-height: 30px;}
+  #mainBanner .carousel-caption strong{font-size: 20px;line-height: 35px;}
+  #mainBanner .carousel-caption p{font-size: 15px;}
+  #threeMiniCards{top: 0px;margin-top: 00px;margin-bottom: 30px;}
+  #threeMiniCards .media-body h5{font-size: 18px;}
+  #threeMiniCards .media-body{font-size: 14px;} 
+  
+  #chooseUs{background:#000;}
+  
+  #aboutUs .container-fluid .row{padding: 0 15px;}
+  
+  #services .media{padding: 15px;}
+
+  
+
+}
