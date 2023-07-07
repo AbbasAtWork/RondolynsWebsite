@@ -206,14 +206,25 @@ footer .container{max-width: 1280px;}
 .navi{justify-content: space-around;}
 @media(max-width:992px)
 {
+#navbarTogglerDemo02{    position: absolute;
+    top: 150px;
+    z-index: 99999;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    left: 0px;
+    right: 0px;
+}
   header{position: relative;}
   header .mainlogo{text-align: center;}
   .navholder{justify-content: flex-start!important;}
   .navbar-light .navbar-toggler{border-color: transparent!important;}
   .navbar-light .navbar-toggler span {color: #ED1E23;}
-  header #innerheader nav{padding: 40px 0;}
+  header #innerheader nav{padding: 40px 0;position:unset;}
   .navi{justify-content: flex-end;}
   header .mainlogo img{left: 15px;}
+.col-lg-9.col-md-9.col-sm-6.col-6.d-flex.justify-content-end.navi.align-items-center{position:unset;}
 }
 @media(max-width:767px)
 {
