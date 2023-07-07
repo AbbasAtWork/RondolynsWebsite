@@ -215,6 +215,7 @@ footer .container{max-width: 1280px;}
     display: block;
     left: 0px;
     right: 0px;
+                     padding-bottom:20px;
 }
   header{position: relative;}
   header .mainlogo{text-align: center;}
