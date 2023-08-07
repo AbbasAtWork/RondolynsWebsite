@@ -510,7 +510,7 @@ transform:rotate(270deg);
     transition: all 200ms linear;
 }
 .progress-wrap:hover::after {
-	opacity: 0;
+	opacity: 1;
 }
 .progress-wrap::before {
 	position: absolute;
