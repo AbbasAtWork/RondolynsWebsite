@@ -293,9 +293,11 @@ footer .container{max-width: 1280px;}
  
   #footerTop .container .row > div{margin-bottom: 20px;}
 }
+iframe{width:100%;}
+.RVEQke{display:none;}
 @media(max-width:575px)
 { 
-
+#mainBanner .carousel-caption a{margin-bottom:10px;}
   #mainBanner * img{height:285px!important;object-fit: cover;}
   #mainBanner .carousel-caption h4{font-size: 18px;line-height: 30px;}
   #mainBanner .carousel-caption strong{font-size: 20px;line-height: 35px;}
