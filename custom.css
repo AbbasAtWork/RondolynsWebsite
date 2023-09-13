@@ -43,7 +43,7 @@ body{overflow-x: hidden;}
 
 
 #mainBanner .carousel-caption{top: 50%;transform: translateY(-50%);left: 0;right: 0;margin: 0 auto;background: rgba(0,0,0,0.7);width: 100%;height:100%;display: flex;align-items: center;justify-content: center;flex-direction: column;}
-#mainBanner .carousel-caption h4{font-size: 51px;font-weight: bold;line-height: 71px;color: #ffff;text-transform: uppercase;width: auto;border-bottom:4px solid #ED1E23;}
+#mainBanner .carousel-caption h1{font-size: 51px;font-weight: bold;line-height: 71px;color: #ffff;text-transform: uppercase;width: auto;border-bottom:4px solid #ED1E23;}
 #mainBanner .carousel-caption strong{font-size: 39px;line-height: 57px;color: #fff;text-transform: uppercase;font-weight: bold;}
 #mainBanner .carousel-caption p{font-size: 20px;line-height: 29px;color: #fff;}
 #mainBanner .carousel-caption a{background: #ED1E23;margin::0 auto;display:block;
@@ -59,40 +59,40 @@ body{overflow-x: hidden;}
     border: 0px;}
 /********* THREEMINICARDS CSS STARTS **********/
 #threeMiniCards{position: relative;top:-100px;z-index: 999999999999999999999999999999999999999;}
-#threeMiniCards h5{font-weight: bold;font-size: 20px;text-transform: uppercase;word-break: break-word;}
+#threeMiniCards h2{font-weight: bold;font-size: 20px;text-transform: uppercase;word-break: break-word;}
 #threeMiniCards .media{padding:30px;}
 #threeMiniCards .media-body{font-size: 16px;}
 #threeMiniCards .first{background: #ED1E23;}
 #threeMiniCards .first h5{color: #fff;}
 #threeMiniCards .first .media-body{color:#fff;}
 #threeMiniCards .second{background: #f4f4f4;}
-#threeMiniCards .second h5{color:#000;}
+#threeMiniCards .second h2{color:#000;}
 #threeMiniCards .second .media-body{color:#000;}
 #threeMiniCards .third{background: #1C224B;}
-#threeMiniCards .third h5{color:#fff;}
+#threeMiniCards .third h2{color:#fff;}
 #threeMiniCards .third .media-body{color:#fff;}
 /********* THREEMINICARDS CSS ENDS **********/
 
 
 #services{margin-bottom: 50px;}
-#services h4{color:#ED1E23;font-size:22px;font-weight: bold;}
-#services h1{color:#000;font-size: 42px;font-weight: bold;}
+#services h3{color:#ED1E23;font-size:22px;font-weight: bold;}
+#services h2{color:#000;font-size: 42px;font-weight: bold;}
 #services .sub{margin-bottom: 30px;padding:0 20px;}    
 #services .media{box-shadow: 0px 10px 20px #00000029;padding: 30px;}
-#services h5{font-size: 20px;line-height: 29px;color:#000;text-transform: uppercase;}
+#services h4{font-size: 20px;line-height: 29px;color:#000;text-transform: uppercase;}
 #services .media-body{font-size: 16px;color:#000;line-height: 25px;}
 #services .media img{position: relative;left:-50px;margin:0px!important;}
 
 
 
 #chooseUs{background: url("./Rectangle 33.png")no-repeat;background-size: cover;padding:120px 0;margin-bottom: 40px;}
-#chooseUs h1{color:#fff;font-size: 42px;line-height: 61px;text-transform: uppercase;margin-bottom: 40px;font-weight: bold;}
+#chooseUs h2{color:#fff;font-size: 42px;line-height: 61px;text-transform: uppercase;margin-bottom: 40px;font-weight: bold;}
 #chooseUs h3{font-size: 20px;line-height: 29px;color:#fff;font-weight: bold;text-transform: uppercase;}
 #chooseUs p{font-size: 16px;color:#fff;line-height: 25px;margin-bottom: 30px;}
 
 
-#aboutUs h4{font-size: 22px;line-height: 32px;color:#ED1E23;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;}
-#aboutUs h1{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;margin-bottom: 30px;font-weight: bold;}
+#aboutUs h3{font-size: 22px;line-height: 32px;color:#ED1E23;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;}
+#aboutUs h2{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;margin-bottom: 30px;font-weight: bold;}
 #aboutUs p{font-size: 22px;line-height:25px;color:#000;}
 #aboutUs span{font-size:22px;color:#000;}
 #aboutUs i{color:#ED1E23;}
@@ -103,7 +103,7 @@ body{overflow-x: hidden;}
         
     
 #resources{margin-top:40px;}
-#resources h1{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;font-weight: bold;}
+#resources h2{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;font-weight: bold;}
 #resources strong{font-size: 22px;line-height: 32px;color:#ED1E23;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;display: block;}
 
 
@@ -194,7 +194,7 @@ body{overflow-x: hidden;}
 
 
 #law{margin-top:40px;margin-bottom: 40px;}
-#law h1{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;font-weight: bold;}
+#law h2{font-size: 42px;line-height: 50px;color:#000;text-transform: uppercase;font-weight: bold;}
 #law strong{font-size: 22px;line-height: 32px;color:#ED1E23;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;display: block;}
 
 
@@ -221,7 +221,7 @@ footer .container{max-width: 1280px;}
 @media(max-width:992px)
 {
 #threeMiniCards{top:0px;margin-top:15px;}
-#mainBanner .carousel-caption h4{font-size:32px;}
+#mainBanner .carousel-caption h1{font-size:32px;}
 #mainBanner .carousel-caption strong{font-size:28px;}
 #navbarTogglerDemo02{    position: absolute;
     top: 150px;
@@ -277,7 +277,7 @@ footer .container{max-width: 1280px;}
     transition: all .35s;
 }
   header #top .social-links{display: none;}
-  #mainBanner .carousel-caption h4{font-size: 23px;line-height: 35px;}
+  #mainBanner .carousel-caption h1{font-size: 23px;line-height: 35px;}
   #mainBanner .carousel-caption strong{font-size: 25px;line-height: 40px;}
   #mainBanner .carousel-caption p{font-size: 16px;}
   #threeMiniCards{top: 0px;margin-top:0px;margin-bottom: 30px;}
@@ -299,11 +299,11 @@ iframe{width:100%;}
 { 
 #mainBanner .carousel-caption a{margin-bottom:10px;}
   #mainBanner * img{height:285px!important;object-fit: cover;}
-  #mainBanner .carousel-caption h4{font-size: 18px;line-height: 30px;}
+  #mainBanner .carousel-caption h1{font-size: 18px;line-height: 30px;}
   #mainBanner .carousel-caption strong{font-size: 20px;line-height: 35px;}
   #mainBanner .carousel-caption p{font-size: 15px;}
   #threeMiniCards{top: 0px;margin-top: 00px;margin-bottom: 30px;}
-  #threeMiniCards .media-body h5{font-size: 18px;}
+  #threeMiniCards .media-body h2{font-size: 18px;}
   #threeMiniCards .media-body{font-size: 14px;} 
   
   #chooseUs{background:#000;}
@@ -317,7 +317,7 @@ iframe{width:100%;}
 }
 
 #fleet{margin-top:40px;margin-bottom: 40px;background:  #ED1E23;padding: 20px 0 0;}
-#fleet h1{font-size: 42px;line-height: 50px;color:#fff;text-transform: uppercase;font-weight: bold;}
+#fleet h2{font-size: 42px;line-height: 50px;color:#fff;text-transform: uppercase;font-weight: bold;}
 #fleet strong{font-size: 22px;line-height: 32px;color:#fff;text-transform: uppercase;margin-bottom: 15px;font-weight: bold;display: block;}
 .loop-wrapper {
   margin: 0 auto;
